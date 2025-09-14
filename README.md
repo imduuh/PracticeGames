@@ -2,21 +2,6 @@
 
 Um plugin de Minecraft desenvolvido para treinar e aprimorar as habilidades no modo "Party" do servidor Mush. Este plugin oferece uma versão melhorada das corridas mortais, permitindo que os jogadores treinem e batam seus recordes pessoais.
 
-## 📋 Índice
-
-- [Sobre o Plugin](#sobre-o-plugin)
-- [Características](#características)
-- [Instalação](#instalação)
-- [Configuração](#configuração)
-- [Comandos](#comandos)
-- [Permissões](#permissões)
-- [Tipos de Corrida](#tipos-de-corrida)
-- [Sistema de Checkpoints](#sistema-de-checkpoints)
-- [Sistema de Banco de Dados](#sistema-de-banco-de-dados)
-- [Vídeos Demonstrativos](#vídeos-demonstrativos)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
 ## 🎯 Sobre o Plugin
 
 O **Practice Games** foi criado para suprir a necessidade de treino no modo "Party" do servidor Mush, que estava sendo pouco mantido. O plugin oferece uma experiência de corrida aprimorada com:
