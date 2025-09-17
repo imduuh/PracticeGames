@@ -1,0 +1,104 @@
+# Configurações do MySQL
+MySQL:
+  Ativado: false
+  Host: "localhost"
+  Port: 3306
+  Database: "practicegames"
+  Username: "root"
+  Password: "senha123"
+
+# Configurações dos mundos
+worlds:
+  end: "Corrida1"
+  grande: "corridagrande"
+  kangaroo: "kangaroo"
+  grappler: "grappler"
+
+# Localizações dos spawns e saídas
+# Estas são definidas automaticamente usando /minigame set
+locations:
+  # Exemplo de estrutura (será preenchido automaticamente):
+  # end:
+  #   world: "world_end"
+  #   x: 0.0
+  #   y: 64.0
+  #   z: 0.0
+  #   yaw: 0.0
+  #   pitch: 0.0
+  # end.saida:
+  #   world: "world_end"
+  #   x: 10.0
+  #   y: 64.0
+  #   z: 10.0
+  #   yaw: 0.0
+  #   pitch: 0.0
+  # end.checkpoints.END:
+  #   world: "world_end"
+  #   x: 100.0
+  #   y: 64.0
+  #   z: 100.0
+  #   yaw: 0.0
+  #   pitch: 0.0
+
+# Configurações gerais
+settings:
+  # Tempo máximo de corrida em segundos (0 = sem limite)
+  max_race_time: 0
+  
+  # Salvar tempos parciais automaticamente
+  save_partial_times: true
+  
+  # Debug mode (mostra logs detalhados)
+  debug: true
+  
+  # Configurações do Kangaroo
+  kangaroo:
+    max_boosts: 2
+    boost_cooldown: 800  # em milissegundos
+    search_depth: 40     # profundidade de busca de blocos
+  
+  # Configurações de corrida normal
+  race:
+    search_depth: 15     # profundidade de busca de blocos
+    allow_partial_races: true
+
+# Mensagens personalizadas
+messages:
+  prefix: "§6§lPracticeGames §7»"
+  no_permission: "§cVocê não tem permissão para executar este comando."
+  player_only: "§cEste comando só pode ser executado por jogadores."
+  race_started: "§aCorrida iniciada!"
+  race_finished: "§aCorrida finalizada!"
+  race_cancelled: "§eCorrida cancelada."
+  checkpoint_reached: "§eCheckpoint alcançado!"
+  
+# Configurações de performance
+performance:
+  # Intervalo de atualização do timer (em ticks)
+  timer_update_interval: 2
+  
+  # Intervalo de limpeza de dados (em ticks)
+  cleanup_interval: 6000  # 5 minutos
+  
+  # Máximo de jogadores em corrida simultânea
+  max_concurrent_races: 50
+
+# Configurações de banco de dados
+database:
+  # Usar pool de conexões
+  use_connection_pool: true
+  
+  # Tamanho máximo do pool
+  max_pool_size: 10
+  
+  # Timeout de conexão (em segundos)
+  connection_timeout: 30
+  
+  # Auto-commit
+  auto_commit: true
+
+# Sistema de backup automático (apenas SQLite)
+backup:
+  enabled: false
+  interval: 86400  # 24 horas em segundos
+  max_backups: 7   # manter últimos 7 backups

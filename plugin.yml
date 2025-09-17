@@ -1,0 +1,39 @@
+name: PracticeGames
+version: 1.0.0
+main: me.tantsz.practicegames.PracticeGames
+author: Eduardo Mendes
+description: Plugin de minigames de corrida com sistema de checkpoints
+
+commands:
+  minigame:
+    description: Comandos principais do plugin
+    usage: /minigame <subcomando>
+    aliases: [mg, practice]
+  iniciar:
+    description: Iniciar corrida em um mapa
+    usage: /iniciar <mapa>
+    aliases: [start]
+  reiniciar:
+    description: Reinicia a corrida atual
+    usage: /reiniciar
+    aliases: [restart]
+  cancelar:
+    description: Cancelar corrida atual
+    usage: /cancelar
+    aliases: [cancel]
+  top:
+    description: Ver rankings
+    usage: /top
+    aliases: [ranking]
+  stats:
+    description: Ver suas estatísticas
+    usage: /stats
+    aliases: [ranking]
+
+permissions:
+  practice.admin:
+    description: Permissões de administrador
+    default: op
+  practice.vip:
+    description: Permissões VIP
+    default: false
