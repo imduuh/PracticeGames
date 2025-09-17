@@ -57,7 +57,7 @@ MySQL:
 
 | Comando | Descrição | Exemplo |
 |---------|-----------|---------|
-| `/minigame iniciar <end|grande|kangaroo|grappler> <checkpoint/spawn>` | Inicia uma corrida | `/minigame iniciar end` |
+| `/minigame iniciar <end/grande/kangaroo/grappler> <checkpoint/spawn>` | Inicia uma corrida | `/minigame iniciar end` |
 | `/minigame cancelar` | Cancela a corrida atual | `/minigame cancelar` |
 | `/minigame reiniciar` | Reinicia a corrida atual | `/minigame reiniciar` |
 | `/minigame top` | Abre o menu de rankings | `/minigame top` |
@@ -74,7 +74,7 @@ MySQL:
 
 | Comando | Descrição | Exemplo |
 |---------|-----------|---------|
-| `/minigame set <end|grande|kangaroo|grappler> <spawn|saida|checkpoint_name|1-12>` | Define spawn ou checkpoint | `/minigame set grande spawn` |
+| `/minigame set <end/grande/kangaroo/grappler> <spawn/saida/checkpoint_name/1-12>` | Define spawn ou checkpoint | `/minigame set grande spawn` |
 
 ## 🔐 Permissões
 
@@ -144,8 +144,8 @@ Todos os mapas possuem checkpoints fixos, que são marcados quando o jogador pas
 
 ## 🎥 Vídeos Demonstrativos
 
-- **Corrida Mortal - Mapa Grande**: [https://youtu.be/199zJOw-jkw]
-- **Corrida Mortal - Mapa END**: [https://youtu.be/hRa4QiwxVdM]
+- **Corrida Mortal - Mapa Grande**: [Clique Aqui](https://youtu.be/199zJOw-jkw)
+- **Corrida Mortal - Mapa END**: [Clique Aqui](https://youtu.be/hRa4QiwxVdM)
 
 ## 🎯 Como Usar
 
